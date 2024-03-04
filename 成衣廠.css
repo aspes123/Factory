@@ -1,0 +1,44 @@
+button {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 19px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: gray;
+  color: white;
+}
+
+#typeYourName {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding-right: 69px;
+}
+
+#order {
+  border: 1px solid black;
+
+  display: block;
+  margin-left: 10px;
+  padding-left: 10px;
+  max-width: 200px;
+}
+
+#genderSelect {
+  padding: 10px;
+  padding-top: 25px;
+}
+
+#clothTypeSelect {
+  padding: 10px;
+  padding-top: 25px;
+}
+
+#typeOrderCount {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding-right: 69px;
+}

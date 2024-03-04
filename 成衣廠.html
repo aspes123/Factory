@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="成衣廠.css">
+  <title>成衣廠</title>
+  <script src="成衣廠.js"></script>
+</head>
+<body>
+  <input type="text" id="typeYourName" placeholder="請輸入名字...">
+  <br>
+  <div id="genderSelect">
+    <span>請選擇想買的分類：
+      <select id="gender">
+        <option value="men">男裝</option>
+        <option value="women">女裝</option>
+      </select>
+    </span>
+  </div>
+  <div id="clothTypeSelect">
+    <span>請選擇想買的類型：
+      <select id="clothType">
+        <option value="coat">外套</option>
+        <option value="top">上衣</option>
+        <option value="under">下身</option>
+      </select>
+    </span>
+  </div>
+  <br>
+  <input type="text" id="typeOrderCount" placeholder="請輸入數量...">
+  <br>
+  <button onclick="order()">我要訂購</button>
+  <button onclick="information()">認識工廠</button>
+  <div>
+    <div id="order">
+      <span id="yourOrder">您的訂單</span>
+      <hr>
+      <span>顧客姓名：<span id="customerName"></span></span>
+      <br>
+      <span>服裝分類：<span id="customerGender"></span></span>
+      <br>
+      <span>服裝類型：<span id="customerClothType"></span></span>
+      <br>
+      <span>訂購數量：<span id="customerOrderCount"></span></span>
+      <br>
+      <span>初步估價：<span id="totalPrice"></span></span>
+    </div>
+  </div>
+</body>
+</html>
