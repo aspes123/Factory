@@ -6,4 +6,6 @@
 
 也有些許的 CSS 樣式。
 
-![image]()
+![image](https://github.com/aspes123/Factory/blob/main/sample1.png)
+
+![image](https://github.com/aspes123/Factory/blob/main/sample2.png)
